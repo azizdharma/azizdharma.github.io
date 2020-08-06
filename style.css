@@ -1,0 +1,275 @@
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    min-width: 290px;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    height: 100%;
+    font-size: 100%;
+    border: 0;
+    background-color: #232323;
+}
+
+a {
+    color: #e9535b;
+    /* font-weight: 600; */
+}
+a:hover {
+    color: #d32029;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    z-index: 1;
+    background-color: #232323;
+}
+.navbar-brand {
+    font-family: Viga;
+    padding-top: 0px;
+}
+.navbar-brand img {
+    height: 25px;
+}
+.header-article {
+    text-align: center;
+}
+
+.container .img-cover {
+    height: 320px;
+}
+.judul {
+    font-family: Merriweather,serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    margin: 30px auto 30px;
+    text-align: center;
+}
+/* Ukuran bagian */
+.intro {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 70px;
+}
+.credits, .text {
+    max-width: 600px;    
+    margin: 0 auto;
+}
+.section {
+    max-width: 600px;
+    margin: 50px 0px;
+}
+.judul-rubrik {
+    max-width: 600px;
+    padding-top: 50px;
+    margin: 70px auto;
+    text-align: center;
+}
+.rubrik {
+    font-size: 12px;
+    font-weight: 700;
+}
+.graphic-medium {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.graphic-large {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.related-post {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.img-related {
+    text-shadow: 2px 2px red;
+    box-shadow: red;
+}
+.judul-related-post {
+    font-family: Merriweather,serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: black;
+    margin: 10px auto 30px;
+}
+
+.nav-link-bawah{
+    font-size: 14px;
+    color: #8f8f8f;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 10px 15px;
+}
+
+.nav-link-bawah:hover {
+    color: #b4b3b3;
+    text-decoration: none;
+}
+.logo-bawah {
+    margin-bottom: 30px;
+}
+
+.keterangan {
+    font-size: 14px;
+    color: white;
+}
+.author {
+    color: #ffffff;
+    font-weight: 700;
+}
+.keterangan .date {
+    display: block;
+    font-weight: 300;
+}
+.intro p{
+    text-align: center;
+    font-family: Merriweather,serif;
+    margin: 30px 0 30px;
+    line-height: 30px;
+    color: #9a9a9a;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+    line-height: 1.8rem;
+    color: white;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+.has-dropcap:first-letter {
+    font-family: 'PT Serif', serif;
+    float: left;
+    font-size: 3.8rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+  }
+.inline-image {
+    float: right;
+}
+.inline-image__caption{
+    color: #9a9a9a;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Roboto,sans-serif;
+    margin: 50px 0 0 !important;
+    line-height: 1.8rem;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+.point-of-attrition {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 16px;
+    flex-direction: row;
+    position: relative;
+}
+.points-of-attrition__sections__section {
+    flex-grow: 1;
+}
+.points-of-attrition__sections__section__icon {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 10;
+    background: #232323;
+}
+.points-of-attrition__sections__section__label {
+    font-family: PT Sans,Trebuchet MS,Arial Narrow,sans-serif;
+    color: #f4f5f7;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
+.points-of-attrition__sections__progress-line {
+    display: block;
+    width: 70%;
+    position: absolute;
+    top: 33.5%;
+    left: 15%;
+    border: 1px dashed #d9172f;
+}
+
+.credits {
+    margin: 30px auto;
+    max-width: 600px;
+}
+.credits p {
+    font-size: 12px;
+    color: #8f8f8f;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+
+/* Mobile Ver */
+@media (max-width: 500px) {
+    .credits, .text, section.intro p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .judul {
+        font-family: Merriweather,serif;
+        font-weight: 900;
+        font-size: 30px;
+
+        padding: 0 10px;
+        margin: 30px auto 30px;
+        text-align: center;
+    }
+    
+}
+/* Desktop Ver */
+
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: #ffffff !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #990099;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+ }
+ @media (min-width: 1200px) { 
+
+
+}
+
+/* treemap anychart */
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
