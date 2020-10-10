@@ -192,8 +192,8 @@ h2 {
     width: 100%;
 }
 .swiper-slide {
-    height: 600px;
-    width: 337px;
+    height: 496px;
+    width: 279px;
 }
 .swiper-slide img {
     border-radius: 5px;
@@ -224,6 +224,7 @@ h2 {
     .swiper-slide {
         height: 496px;
         width: 279px;
+    }
     
 }
 /* Desktop Ver */
