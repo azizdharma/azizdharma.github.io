@@ -188,12 +188,12 @@ h2 {
 }
 
 .swiper-container {
-    height: 475px;
+    height: 100%;
+    width: 100%;
 }
 .swiper-slide {
-    text-align: center;
-    width: 30%;
-    border-radius: 25px;
+    height: 600px;
+    width: 337px;
 }
 .swiper-slide img {
     border-radius: 5px;
@@ -203,7 +203,11 @@ h2 {
 
 /* Mobile Ver */
 @media (max-width: 500px) {
-    .credits, .text, section.intro p {
+    body {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .credits, .text, .graphic-medium, section.intro p {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -216,6 +220,10 @@ h2 {
         margin: 30px auto 30px;
         text-align: center;
     }
+
+    .swiper-slide {
+        height: 496px;
+        width: 279px;
     
 }
 /* Desktop Ver */
