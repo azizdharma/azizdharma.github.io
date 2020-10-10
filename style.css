@@ -29,7 +29,8 @@ a:hover {
     background-color: #232323;
 }
 .navbar-brand {
-    font-family: Viga;
+    font-family: Merriweather,serif;
+    font-weight: 900;
     padding-top: 0px;
 }
 .navbar-brand img {
@@ -62,7 +63,7 @@ a:hover {
 }
 .section {
     max-width: 600px;
-    margin: 50px 0px;
+    /* margin: 50px 0px; */
 }
 .judul-rubrik {
     max-width: 600px;
@@ -75,7 +76,7 @@ a:hover {
     font-weight: 700;
 }
 .graphic-medium {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 .graphic-large {
@@ -173,41 +174,7 @@ h2 {
     color: #ffffff;
 
 }
-.point-of-attrition {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 16px;
-    flex-direction: row;
-    position: relative;
-}
-.points-of-attrition__sections__section {
-    flex-grow: 1;
-}
-.points-of-attrition__sections__section__icon {
-    display: inline-block;
-    padding: 4px;
-    border-radius: 100%;
-    position: relative;
-    z-index: 10;
-    background: #232323;
-}
-.points-of-attrition__sections__section__label {
-    font-family: PT Sans,Trebuchet MS,Arial Narrow,sans-serif;
-    color: #f4f5f7;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-top: 8px;
-    letter-spacing: 1px;
-}
-.points-of-attrition__sections__progress-line {
-    display: block;
-    width: 70%;
-    position: absolute;
-    top: 33.5%;
-    left: 15%;
-    border: 1px dashed #d9172f;
-}
+
 
 .credits {
     margin: 30px auto;
@@ -218,6 +185,19 @@ h2 {
     color: #8f8f8f;
     letter-spacing: 0;
     line-height: 16px;
+}
+
+.swiper-container {
+    height: 475px;
+}
+.swiper-slide {
+    text-align: center;
+    width: 30%;
+    border-radius: 25px;
+}
+.swiper-slide img {
+    border-radius: 5px;
+    height: 100%;
 }
 
 
