@@ -23,19 +23,28 @@ a:hover {
 }
 
 /* Navbar */
+nav {
+    background-color: #232323;
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
 .navbar {
     position: fixed;
-    z-index: 1;
-    background-color: #232323;
+    background-color: #ca0404;
 }
 .navbar-brand {
     font-family: Merriweather,serif;
     font-weight: 900;
-    padding-top: 0px;
+    padding-top: 3px;
 }
-.navbar-brand img {
+.d-md-inline-block {
+    text-transform: uppercase;
+    font-family: Roboto,sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+/* .navbar-brand img {
     height: 25px;
-}
+} */
 .header-article {
     text-align: center;
 }
@@ -200,8 +209,8 @@ h2 {
     width: 100%;
 }
 .swiper-slide {
-    height: 480px;
-    width: 270px;
+    height: 448px;
+    width: 252px;
 }
 .swiper-slide img {
     border-radius: 5px;
