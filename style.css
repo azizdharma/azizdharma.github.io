@@ -13,6 +13,10 @@ body {
     color: #232323;
     /* background-color: #232323; */
 }
+input[type=text], input[type=button] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    }
 .standard {
     padding-top: 3.5rem;
 }
@@ -207,11 +211,11 @@ h2 {
     line-height: 16px;
 }
 
-.swiper-container, .swiper-container-ig {
+.swiper-container {
     height: 100%;
     width: 100%;
 }
-.swiper-slide {
+.swiper-slide-story {
     height: 448px;
     width: 252px;
 }
@@ -219,7 +223,7 @@ h2 {
     height: 252px;
     width: 252px;
 }
-.swiper-slide img, .swiper-slide-ig img {
+.swiper-slide-story img, .swiper-slide-ig img {
     border-radius: 5px;
     height: 100%;
 }
