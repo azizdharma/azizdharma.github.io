@@ -207,7 +207,7 @@ h2 {
     line-height: 16px;
 }
 
-.swiper-container {
+.swiper-container, .swiper-container-ig {
     height: 100%;
     width: 100%;
 }
@@ -215,7 +215,11 @@ h2 {
     height: 448px;
     width: 252px;
 }
-.swiper-slide img {
+.swiper-slide-ig {
+    height: 252px;
+    width: 252px;
+}
+.swiper-slide img, .swiper-slide-ig img {
     border-radius: 5px;
     height: 100%;
 }
