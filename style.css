@@ -50,6 +50,7 @@ nav {
     font-weight: 100;
     letter-spacing: 2px;
     color: #ffffff !important;
+    font-size: 12px;
     /* margin-right: 30px; */
 }
 .d-md-inline-block {
@@ -61,7 +62,11 @@ nav {
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.0);
-    padding-right: 0px;
+    /* padding-right: 0px; */
+}
+
+button.navbar-toggler {
+    padding-right: 0px !important;
 }
 .btn-outline-danger {
     color: #dc3545;
@@ -382,9 +387,9 @@ h2 {
         content: '';
         display: block;
         border-bottom: 2px solid #23A455;
-        width: 80%;
+        width: 60%;
         margin: auto;
-        padding-bottom: 1px;
+        padding-bottom: 2px;
         margin-bottom: -8px;
     }
 }
